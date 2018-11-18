@@ -1,0 +1,120 @@
+body {
+    background-color: #404040;    
+}
+
+p {
+    color: #404040;
+}
+
+.header {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    margin-bottom: 2%;
+}
+
+#logo {
+    width: 100px;
+    display: inline-block; 
+    margin-top: 2%;
+    margin-right: 15px;
+    float: left;
+}
+
+.nav-link {
+    color: #f7f5ba;
+}
+
+.index-on,
+.portfolio-on,
+.contact-on {
+    border-bottom: 6px solid;
+    margin-bottom: 2%;
+}
+
+.nav-link:hover {
+    color: #e2dfac;
+}
+
+
+#about-aside {
+    width: 90%;
+    display: inline-block;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-item {
+    margin: 8px;
+}
+
+.lead {
+    font-size: 1em;
+}
+
+#name {
+    color: rgb(255, 255, 255);
+    font-family: 'Heebo', sans-serif;
+    font-size: 2.5em;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+
+.main-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#content-row {
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #f7f5ba;
+    color:#404040;
+}
+
+.btn:hover {
+    background-color: #e2dfac;
+    cursor: pointer;
+}
+
+.card {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.card-img-top {
+    max-width: 100%;
+}
+
+.card-text {
+    font-size: .75em;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+}
