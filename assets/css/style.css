@@ -81,21 +81,21 @@ p {
 }
 
 .btn-code {
-    background-color: yellowgreen;
+    background-color: lightblue;
     text-align: center;
 }
 
 .btn-code:hover {
-    background-color: rgb(128, 172, 41);
+    background-color: rgb(86, 159, 184);
 }
 
 .btn {
-    background-color: #f7f5ba;
-    color:#404040;
+    background-color: #404040;
+    color: white;
 }
 
 .btn:hover {
-    background-color: #e2dfac;
+    background-color: #202020;
     cursor: pointer;
 }
 
@@ -136,4 +136,8 @@ p {
 
 .logos {
     text-align: center;
+}
+
+.projbutton {
+    margin-top: 5px;
 }
