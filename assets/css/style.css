@@ -56,6 +56,11 @@ p {
     font-size: .9em;
 }
 
+.lead-contact {
+    font-size: .9em;
+    text-align: center;
+}
+
 #name {
     color: rgb(255, 255, 255);
     font-family: 'Heebo', sans-serif;
@@ -140,4 +145,9 @@ p {
 
 .projbutton {
     margin-top: 5px;
+}
+
+.email-address {
+    color: blue;
+    font-size: 2rem;
 }
